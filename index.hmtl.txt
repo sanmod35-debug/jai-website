@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JaiSys MSP Cybersecurity — Command Architecture</title>
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>JaiSys Command Architecture</h2>
+
+    <div class="matrix-container" id="architectureContainer">
+       
+        <!-- Slogan Border Layer -->
+        <div class="border-aligned-slogan">
+            <div class="edge-text edge-left">TECHNOLOGY</div>
+            <div class="edge-text edge-top">PARTNER</div>
+            <div class="edge-text edge-right">CONTACT</div>
+        </div>
+
+        <!-- Central Branding Core -->
+        <div class="hexagon center-hub" id="centerHub">
+            <div class="main-brand">JaiSys</div>
+            <div class="sub-brand">MSP</div>
+            <div class="sub-brand" style="font-size: 11px; color: #38bdf8; margin-top: 3px;">Cybersecurity</div>
+        </div>
+
+        <!-- Dynamic Information Detail Box -->
+        <div id="ticker" class="tagline-ticker">SELECT AN ACTIVE SYSTEM SECURITY ARCHITECTURE MODULE TO COMMENCE STRUCTURAL SCOPING REVIEW</div>
+
+        <!-- Node 1: RMM -->
+        <div class="hexagon outer-node pos-rmm" data-info="VIGILANCE — Continuous automated endpoint protection executing background <strong>AUTOMATED PATCHING</strong> parameters, tracking cloud software baseline deployments, and optimizing system health metrics.">
+            <svg viewBox="0 0 24 24"><path d="M12,11A1,1 0 0,0 11,12A1,1 0 0,0 12,13A1,1 0 0,0 13,12A1,1 0 0,0 12,11M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,18c-3.31,0-6-2.69-6-6c0-1 .25-1.97.7-2.8L8.24,10.11C8.08,10.71 8,11.35 8,12a4,4 0 0,0 4,4a4,4 0 0,0 4-4c0-.65-.08-1.29-.24-1.89L17.3,9.2C17.75,10.03 18,11 18,12c0,3.31-2.69,6-6,6m0-8A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10Z"/></svg>
+            <span>RMM</span>
+        </div>
+
+        <!-- Node 2: PSA -->
+        <div class="hexagon outer-node pos-psa" data-info="AUTOMATION — Service optimization ecosystem tracking internal SLA parameters, automating helpdesk ticket queues, and enforcing rigorous corporate <strong>SLA AUDITING</strong> workflows.">
+            <svg viewBox="0 0 24 24"><path d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.47,5.34 14.86,5.08L14.47,2.42C14.43,2.18 14.22,2 13.97,2H9.97C9.72,2 9.51,2.18 9.47,2.42L9.08,5.08C8.47,5.34 7.9,5.66 7.38,6.05L4.89,5.05C4.67,4.96 4.4,5.05 4.29,5.27L2.29,8.73C2.17,8.95 2.22,9.22 2.41,9.37L4.52,11C4.48,11.34 4.45,11.67 4.45,12C4.45,12.33 4.48,12.65 4.52,12.97L2.41,14.63C2.22,14.78 2.17,15.05 2.29,15.27L4.29,18.73C4.4,18.95 4.67,19.04 4.89,18.95L7.38,17.95C7.9,18.34 8.47,18.66 9.08,18.92L9.08,21.58C9.51,21.82 9.72,22 9.97,22H13.97C14.22,22 14.43,21.82 14.47,21.58L14.86,18.92C15.47,18.66 16.04,18.34 16.56,17.95L19.05,18.95C19.27,19.04 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z"/></svg>
+            <span>PSA</span>
+        </div>
+
+        <!-- Node 3: 24/7 SOC -->
+        <div class="hexagon outer-node pos-soc" data-info="MONITORING — Around-the-clock defense room staffed by live security engineers conducting deep alert triage and aggressive, <strong>PROACTIVE THREAT HUNTING</strong> missions.">
+            <svg viewBox="0 0 24 24"><path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"/></svg>
+            <span>24/7 SOC</span>
+        </div>
+
+        <!-- Node 4: XDR -->
+        <div class="hexagon outer-node pos-xdr" data-info="DETECTION — Consolidated multi-layered analytics cluster ingesting raw network nodes, correlating endpoint anomalies, and compiling real-time <strong>THREAT CORRELATION DATA</strong> feeds.">
+            <svg viewBox="0 0 24 24"><path d="M12,2L2,7V14C2,20.14 6.27,25.86 12,27C17.73,25.86 22,20.14 22,14V7L12,2M12,4.3L19.8,8.2V14C19.8,18.69 16.48,23.36 12,24.6V4.3Z"/></svg>
+            <span>XDR</span>
+        </div>
+
+        <!-- Node 5: MDR -->
+        <div class="hexagon outer-node pos-mdr" data-info="RESPONSE — Direct defensive intervention layer executing automated endpoint quarantine, malicious payload disruption, and immediate <strong>INCIDENT CONTAINMENT MANOEUVRES</strong>.">
+            <svg viewBox="0 0 24 24"><path d="M12,2C11.5,2 11,2.19 10.59,2.57L3.34,9.18C2.94,9.55 2.55,10.27 2.55,10.82V19A2,2 0 0,0 4.55,21H19.55A2,2 0 0,0 21.55,19V10.82C21.55,10.27 21.16,9.55 20.76,9.17L13.5,2.57C13.09,2.19 12.5,2 12,2M12,4L18.8,10.21V19H5.2V10.21L12,4M12,7.5A3.5,3.5 0 0,0 8.5,11A3.5,3.5 0 0,0 12,14.5A3.5,3.5 0 0,0 15.5,11A3.5,3.5 0 0,0 12,7.5Z"/></svg>
+            <span>MDR</span>
+        </div>
+
+        <!-- Node 6: IAM -->
+        <div class="hexagon outer-node pos-iam" data-info="IDENTITY — Absolute <strong>ZERO TRUST USER ACCESS</strong> validation enforcing contextual multi-factor check steps, hardware posture auditing, and restricted credential boundary rules.">
+            <svg viewBox="0 0 24 24"><path d="M12,17A2,2 0 0,0 14,15C14,13.89 13.11,13 12,13A2,2 0 0,0 10,15C10,16.11 10.89,17 12,17M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,10V8A2,2 0 0,1 6,6H7V4A5,5 0 0,1 12,-1A5,5 0 0,1 17,4V6H18A2,2 0 0,1 18,8M7,6H17V4A5,5 0 0,0 12,1A5,5 0 0,0 7,4V6Z"/></svg>
+            <span>IAM</span>
+        </div>
+
+        <!-- Node 7: SIEM -->
+        <div class="hexagon outer-node pos-siem" data-info="ANALYSIS — Security intelligence data repository logging event metrics across servers, parsing logs for framework compliance, and archiving operational telemetry <strong>SECURITY AUDITING PROOFS</strong>.">
+            <svg viewBox="0 0 24 24"><path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z"/></svg>
+            <span>SIEM</span>
+        </div>
+    </div>
+
+    <!-- Main Request Button -->
+    <button class="trigger-quote-btn" id="openModalBtn">Request Quote / Contact Form</button>
+
+    <!-- Form Overlay -->
+    <div id="quoteModal" class="modal-overlay">
+        <div class="quote-form-panel">
+            <button class="close-modal-btn" id="closeModalBtn">&times;</button>
+            <div class="form-title">Scope Your Security Profile</div>
+            <div class="form-desc">Provide your corporate vectors below to secure a precise, tailored technical quote.</div>
+           
+            <form id="mspQuoteForm">
+                <div class="form-group">
+                    <label for="companyName">Corporate Entity Name</label>
+                    <input type="text" id="companyName" name="companyName" placeholder="e.g., Acme Infrastructure Ltd" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Corporate Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="you@company.com" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="staffCount">Total Users / Staff</label>
+                        <select id="staffCount" name="staffCount" required>
+                            <option value="" disabled selected>Select headcount</option>
+                            <option value="1-15">1 - 15 seats</option>
+                            <option value="16-50">16 - 50 seats</option>
+                            <option value="51-250">51 - 250 seats</option>
+                            <option value="250+">250+ enterprise seats</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="endpointCount">Total Managed Endpoints</label>
+                        <select id="endpointCount" name="endpointCount" required>
+                            <option value="" disaed selected>Select device count</option>
+                            <option value="1-30">1 - 30 devices</option>
+                            <option value="31-100">31 - 100 devices</option>
+                            <option value="101-500">101 - 500 devices</option>
+                            <option value="500+">500+ devices</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="infraVector">Primary Infrastructure Vector</label>
+                    <select id="infraVector" name="infraVector" required>
+                        <option value="" disabled selected>Select active vector</option>
+                        <option value="Cloud Native">Cloud Native (AWS / Azure / M365)</option>
+                        <option value="On-Premise">On-Premise Physical Servers</option>
+                        <option value="Hybrid">Hybrid Infrastructure Network</option>
+                    </select>
+                </div>
+
+
+Active Compliance Framework Focus
+None / General Optimization
+Cyber Essentials / Cyber Essentials Plus
+GDPR / HIPAA Data Encryption Compliance
+ISO 27001 / PCI-DSS Infrastructure Standards
+
+
+Submit Scope For Quote
